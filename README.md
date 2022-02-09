@@ -21,11 +21,11 @@ manage the customer's orders.
 
 
 ## Reports to be generated:
-1) Transactions Report:
-2) Food Report:
-3) Customer Report:
-4) Average Daily Rate:
-5) User Feedback Report:
+1) Transactions Report : Reviewing this report will allow to track production, see staff errors, calculate the loss of revenue
+2) Food report : Reviewing this report will allow us to track the most ordered ,least ordered and the categories .
+3) Customer Report : Reviewing this report will allow us to track the customer details and their respective orders.
+4) Average Daily Rate : Reviewing this report will allow you to benchmark your property.
+5) User Feedback Report : Reviewing this report will allow us to improve the quality as well the service.
 
 
 ## Software tools for Building the App:
@@ -33,7 +33,4 @@ manage the customer's orders.
 * MariaDB Server (for MySQL)
 * Reactjs
 ## Hardware tools for Building the App:
-* Processor: Intel core i7 10th gen or Newer
-* RAM: 16GB or Higher
-* Storage: 1TB SSD or Higher
-* Screen: 15.6 inch or Higher, 1920 x 1080 pixels
+ PC, Processor, RAM, Stroage ...
