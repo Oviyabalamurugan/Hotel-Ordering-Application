@@ -14,6 +14,6 @@ The food sector is extremely labour-intensive, and the cost of hiring the right 
 * Visual Studio Code
 * MariaDB Server (for MySQL)
 * Reactjs
-* 
+
 ## Hardware tools for Building the App :
  PC, Processor, RAM, Stroage ...
