@@ -11,6 +11,14 @@ The food sector is extremely labour-intensive, and the cost of hiring the right 
 5) Order Tracking
 6) Review/Rate a Restaurant/Food
 
+## Forms used: 
+* Signup Form
+* Login Form
+* Address From 
+* Payment From
+* Feedback Form
+
+
 ## Reports to be generated:                     
 1) Transactions Report: Reviewing this report will allow to track production, see staff errors, calculate the loss of revenue
 2) Food Report: Reviewing this report will allow us to track the most ordered ,least ordered and the categories .
