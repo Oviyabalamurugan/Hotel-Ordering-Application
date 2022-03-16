@@ -131,8 +131,8 @@ Login Table: Add new users to the application and allow access using Customer id
             
 ## Requirements
 1.Customer:  
-    * Search Foods/Restaurants 
-    * Offers Section (High to Low Discount)
+* Search Foods/Restaurants 
+* Offers Section (High to Low Discount)
     * Filter based on food types i.e., Beverages, Snacks, Meals etc..,
     * Find Food/restaurant closer to his/her location
     * List of Popular Foods
