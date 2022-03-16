@@ -44,19 +44,19 @@ Master Tables:
 
 Customer Table : To Track the Customers who ordered the particular food.
 
-      Customer_id (PK)
+            Customer_id (PK)
 
 Employee Table : To track details of the employee.
 
-     Employee_id (PK)
+            Employee_id (PK)
 
 Menu Table : To track the quantity of the food.
 
-    Menu_id (PK)
+            Menu_id (PK)
 
-    Supplier Table : To track the number of suppliers and to keep track of the ordered food in  a particular hotel.
+            Supplier Table : To track the number of suppliers and to keep track of the ordered food in  a particular hotel.
 
-    Supplier_id (PK)
+            Supplier_id (PK)
 
  
 
