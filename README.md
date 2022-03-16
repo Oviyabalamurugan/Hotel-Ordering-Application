@@ -131,6 +131,7 @@ Login Table: Add new users to the application and allow access using Customer id
             
 ## Requirements
 1.Customer:  
+
 * Search Foods/Restaurants 
 * Offers Section (High to Low Discount)
 * Filter based on food types i.e., Beverages, Snacks, Meals etc..,
@@ -141,6 +142,7 @@ Login Table: Add new users to the application and allow access using Customer id
 * Feedback(update)
  
 2.Restaurants:
+
 * Specifies the menu item present in the particular restaurant.(Modify)
 * Add quantity when available (Modify)
 * Delete quantity when not available (Modify)
@@ -151,6 +153,7 @@ Login Table: Add new users to the application and allow access using Customer id
 * Images of the Restaurants(update)
  
 3.Delivery Agent:
+
 * Location of the Restaurant(View)
 * Location of the Customer(View)
 * Ordered time(View)
@@ -159,6 +162,7 @@ Login Table: Add new users to the application and allow access using Customer id
 * Feedback(view)
 
 ## Contributors:
+
 1) B Vignesh
 2) Oviya B
 3) Raghul K B
