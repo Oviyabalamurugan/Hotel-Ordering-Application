@@ -86,11 +86,11 @@ Payment_id (PK)
 
 OrderFood Table :  To track the details of the food to be delivered
 
-     Order_id (PK)
+            Order_id (PK)
 
-     Payment_id (FK)
+            Payment_id (FK)
 
-     Customer_id (FK)
+            Customer_id (FK)
 
 ---------------------------------------------------
 
@@ -98,19 +98,19 @@ OrderFood Table :  To track the details of the food to be delivered
 
 Admin Table : To  Manage interface for the restaurants to receive and manage the customer's orders.
 
-          Admin_id (PK)
+            Admin_id (PK)
 
-          Customer_id (FK)
+            Customer_id (FK)
 
-          Order_id (FK)
+            Order_id (FK)
 
-          Food_id (FK)
+            Food_id (FK)
 
-          Supplier_id (FK)
+            Supplier_id (FK)
 
-          Payment_id (FK)  
+            Payment_id (FK)  
 
-          Employee_id (FK)
+            Employee_id (FK)
 
 
 
