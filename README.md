@@ -48,10 +48,10 @@ The food sector is extremely labour-intensive, and the cost of hiring the right 
 * Reactjs
 
 ## Hardware tools for Building the App :
-* Processor: Intel core i7 10th gen or Newe
-* RAM: 16GB or Higher
-* Storage: 1TB SSD or Higher
-* Screen: 15.6 inch or Higher, 1920 x 1080 pixels
+* Processor
+* RAM
+* Storage -SSD/HDD
+* Monitor
 
 
 ## Tables:
