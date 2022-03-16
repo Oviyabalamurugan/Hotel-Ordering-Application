@@ -44,19 +44,19 @@ Master Tables:
 
 Customer Table : To Track the Customers who ordered the particular food.
 
-Customer_id (PK)
+      Customer_id (PK)
 
 Employee Table : To track details of the employee.
 
-Employee_id (PK)
+     Employee_id (PK)
 
 Menu Table : To track the quantity of the food.
 
-Menu_id (PK)
+    Menu_id (PK)
 
-Supplier Table : To track the number of suppliers and to keep track of the ordered food in  a particular hotel.
+    Supplier Table : To track the number of suppliers and to keep track of the ordered food in  a particular hotel.
 
-Supplier_id (PK)
+    Supplier_id (PK)
 
  
 
@@ -86,11 +86,11 @@ Payment_id (PK)
 
 OrderFood Table :  To track the details of the food to be delivered
 
-Order_id (PK)
+     Order_id (PK)
 
-Payment_id (FK)
+     Payment_id (FK)
 
-Customer_id (FK)
+     Customer_id (FK)
 
 ---------------------------------------------------
 
@@ -102,13 +102,13 @@ Admin Table : To  Manage interface for the restaurants to receive and manage the
 
           Customer_id (FK)
 
-            Order_id (FK)
+          Order_id (FK)
 
-            Food_id (FK)
+          Food_id (FK)
 
-            Supplier_id (FK)
+          Supplier_id (FK)
 
-            Payment_id (FK)  
+          Payment_id (FK)  
 
           Employee_id (FK)
 
@@ -130,30 +130,30 @@ Login Table: Add new users to the application and allow access using Customer id
             
             
 ## Requirements
-Customer:  
-Search Foods/Restaurants 
-Offers Section (High to Low Discount)
-Filter based on food types i.e., Beverages, Snacks, Meals etc..,
-Find Food/restaurant closer to his/her location
-List of Popular Foods
-Enter the location(Update)
-Status of the Order(View)
-Feedback(update)
+1.Customer:  
+    Search Foods/Restaurants 
+    Offers Section (High to Low Discount)
+    Filter based on food types i.e., Beverages, Snacks, Meals etc..,
+    Find Food/restaurant closer to his/her location
+    List of Popular Foods
+    Enter the location(Update)
+    Status of the Order(View)
+    Feedback(update)
  
-Restaurants:
-Specifies the menu item present in the particular restaurant.(Modify)
-Add quantity when available (Modify)
-Delete quantity when not available (Modify)
-Enter the determined prize (Modify)
-Mentioning the opening and closing time of the Restaurant (Modify)
-Monthly payment details and billing system for that restaurant's purchase.(View)
-Contract details per year between the restaurant and Delivery Company.(View)
-Images of the Restaurants(update)
+2.Restaurants:
+     Specifies the menu item present in the particular restaurant.(Modify)
+     Add quantity when available (Modify)
+     Delete quantity when not available (Modify)
+     Enter the determined prize (Modify)
+     Mentioning the opening and closing time of the Restaurant (Modify)
+     Monthly payment details and billing system for that restaurant's purchase.(View)
+     Contract details per year between the restaurant and Delivery Company.(View)
+     Images of the Restaurants(update)
  
-Delivery Agent:
-Location of the Restaurant(View)
-Location of the Customer(View)
-Ordered time(View)
-Payment status made by the customer should be updated.(Update)
-Status of the Order(Modify)Delivered,Onprogress,dispatch from Restaurant,yet to Dispatch.
-Feedback(view)
+3.Delivery Agent:
+      Location of the Restaurant(View)
+      Location of the Customer(View)
+      Ordered time(View)
+      Payment status made by the customer should be updated.(Update)
+      Status of the Order(Modify)Delivered,Onprogress,dispatch from Restaurant,yet to Dispatch.
+      Feedback(view)
