@@ -157,3 +157,10 @@ Login Table: Add new users to the application and allow access using Customer id
 * Payment status made by the customer should be updated.(Update)
 * Status of the Order(Modify)Delivered,Onprogress,dispatch from Restaurant,yet to Dispatch.
 * Feedback(view)
+
+## Contributors:
+1) B Vignesh
+2) Oviya B
+3) Raghul K B
+4) V Devakumar
+5) V Nithin Krishna
