@@ -15,11 +15,25 @@ The food sector is extremely labour-intensive, and the cost of hiring the right 
 ## Forms used: 
 
 * Signup Form
+  * Admin Register form
+  * Customer Register form
+  * Delivery Agent Register form
 * Login Form
+  * Customer form
+  * Forgot Password form
+  * Delivery Agent form
+  * Admin Form
+  * OTP Form
 * Address Form
+  * Customer Addres form
+  * Restaurant Address form
 * Payment Form
+  * Transfer details form
+  * type of transfer form
 * Feedback Form
-
+  * Restaurant feedback form
+  * Delivery Agent feedback form
+  * Website feedback form
 
 ## Reports to be generated:                     
 1) Transactions Report: Reviewing this report will allow to track production, see staff errors, calculate the loss of revenue
