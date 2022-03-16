@@ -38,3 +38,92 @@ The food sector is extremely labour-intensive, and the cost of hiring the right 
 * Screen: 15.6 inch or Higher, 1920 x 1080 pixels
 
 
+## Tables:
+
+Master Tables:
+
+Customer Table : To Track the Customers who ordered the particular food.
+
+Customer_id (PK)
+
+Employee Table : To track details of the employee.
+
+Employee_id (PK)
+
+Menu Table : To track the quantity of the food.
+
+Menu_id (PK)
+
+Supplier Table : To track the number of suppliers and to keep track of the ordered food in  a particular hotel.
+
+Supplier_id (PK)
+
+ 
+
+ ---------------------------------------------
+
+ 
+
+Transaction Tables:
+
+Payment Table : To have detailed information regarding the Payment made by the customer.
+
+Payment_id (PK)
+
+            Customer_id (FK)
+
+            Order_id (FK)
+
+            Food_id (FK)
+
+            Supplier_id (FK)
+
+            Payment_id (FK)  
+
+---------------------------------------------------
+
+
+
+OrderFood Table :  To track the details of the food to be delivered
+
+Order_id (PK)
+
+Payment_id (FK)
+
+Customer_id (FK)
+
+---------------------------------------------------
+
+
+
+Admin Table : To  Manage interface for the restaurants to receive and manage the customer's orders.
+
+          Admin_id (PK)
+
+          Customer_id (FK)
+
+            Order_id (FK)
+
+            Food_id (FK)
+
+            Supplier_id (FK)
+
+            Payment_id (FK)  
+
+          Employee_id (FK)
+
+
+
+----------------------------------------------------
+
+ 
+
+ 
+
+Login Table: Add new users to the application and allow access using Customer id and Password.
+
+            Customer Id (FK)
+
+            Admin Id(FK)
+
+            Password
