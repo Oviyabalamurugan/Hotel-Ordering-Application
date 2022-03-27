@@ -43,6 +43,7 @@ else{
     <meta name="author" content="">
     <link rel="icon" href="#">
     <title>Grub</title>
+    <link rel="shortcut icon" href="images/newbglogo.png" type="image/jpg">
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -73,7 +74,7 @@ else{
 							}
 						else
 							{
-										echo  '<li class="nav-item"><a href="your_orders.php" class="nav-link active">Your orders</a> </li>';
+										echo  '<li class="nav-item"><a href="accountpage.php" class="nav-link active">My account</a> </li>';
 									echo  '<li class="nav-item"><a href="logout.php" class="nav-link active">Logout</a> </li>';
 							}
 
@@ -125,15 +126,15 @@ else{
 											<tbody>
                                                     <tr>
                                                         <td>Cart Subtotal</td>
-                                                        <td> <?php echo "$".$item_total; ?></td>
+                                                        <td> <?php echo "₹".$item_total; ?></td>
                                                     </tr>
                                                     <tr>
                                                         <td>Shipping &amp; Handling</td>
-                                                        <td>free shipping</td>
+                                                        <td>Free shipping</td>
                                                     </tr>
                                                     <tr>
                                                         <td class="text-color"><strong>Total</strong></td>
-                                                        <td class="text-color"><strong> <?php echo "$".$item_total; ?></strong></td>
+                                                        <td class="text-color"><strong> <?php echo "₹".$item_total; ?></strong></td>
                                                     </tr>
                                                 </tbody>
 												
@@ -148,12 +149,12 @@ else{
                                         <ul class=" list-unstyled">
                                             <li>
                                                 <label class="custom-control custom-radio  m-b-20">
-                                                    <input name="mod" id="radioStacked1" checked value="COD" type="radio" class="custom-control-input"> <span class="custom-control-indicator"></span> <span class="custom-control-description">Payment on delivery</span>
-                                                    <br> <span>Please send your cheque to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</span> </label>
+                                                    <input name="mod" id="radioStacked1" checked value="COD" type="radio" class="custom-control-input"> <span class="custom-control-indicator"></span> <span class="custom-control-description">Pay on delivery</span>
+                                                    </label>
                                             </li>
                                             <li>
                                                 <label class="custom-control custom-radio  m-b-10">
-                                                    <input name="mod"  type="radio" value="paypal"  class="custom-control-input"> <span class="custom-control-indicator"></span> <span class="custom-control-description">Paypal <img src="images/paypal.jpg" alt="" width="90"></span> </label>
+                                                    <input name="mod"  type="radio" value="paypal"  class="custom-control-input"> <span class="custom-control-indicator"></span> <span class="custom-control-description">Credit/Debit Card <img src="images/paypal.jpg" alt="" width="90"></span> </label>
                                             </li>
                                         </ul>
                                         <p class="text-xs-center"> <input type="submit" onclick="return confirm('Are you sure?');" name="submit"  class="btn btn-outline-success btn-block" value="Order now"> </p>

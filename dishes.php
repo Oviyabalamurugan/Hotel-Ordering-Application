@@ -19,13 +19,22 @@ include_once 'product-action.php'; //including controller
     <meta name="author" content="">
     <link rel="icon" href="#">
     <title>Grub</title>
+    <link rel="shortcut icon" href="images/newbglogo.png" type="image/jpg">
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animsition.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet"> </head>
+    <link href="css/style.css" rel="stylesheet">
+<style>
+    .fa-whatsapp  {
+  color:#fff;
+  background:
+   linear-gradient(#25d366,#25d366) 14% 84%/16% 16% no-repeat,
+   radial-gradient(#25d366 58%,transparent 0);
+}
+</style> </head>
 
 <body>
     
@@ -51,7 +60,7 @@ include_once 'product-action.php'; //including controller
 							{
 									
 									
-									echo  '<li class="nav-item"><a href="your_orders.php" class="nav-link active">Your Orders</a> </li>';
+									echo  '<li class="nav-item"><a href="accountpage.php" class="nav-link active">My account</a> </li>';
 									echo  '<li class="nav-item"><a href="logout.php" class="nav-link active">Logout</a> </li>';
 							}
 
@@ -98,6 +107,7 @@ include_once 'product-action.php'; //including controller
                                     <ul class="nav nav-inline">
                                         <li class="nav-item"> <a class="nav-link active" href="#" ><i class="fa fa-check"></i> Min ₹ 10.00</a> </li>
                                         <li class="nav-item"> <a class="nav-link" href="#"  ><i class="fa fa-clock-o"></i> 30 mins</a> </li>
+                                        <li class="nav-item"> <a class="nav-link" href="https://api.whatsapp.com/send?phone=<?=$rows['phone']?>" target="blank"  ><i class="fa fa-whatsapp fa-1x" aria-hidden="true" style="font-size:22px"></i><?php echo " ".$rows['phone']; ?></a> <li class="nav-item">
                                         <li class="nav-item ratings">
                                             <a class="nav-link" href="#"> 
                                     <span>
@@ -109,7 +119,9 @@ include_once 'product-action.php'; //including controller
                                     </span> 
                                 </a>
                                         </li>
+                                        
                                     </ul>
+                                   
                                 </div>
                             </div>	
                         </div>
@@ -192,7 +204,7 @@ foreach ($_SESSION["cart_item"] as $item)  // fetch items define current into se
                         <div class="menu-widget" id="2">
                             <div class="widget-heading">
                                 <h3 class="widget-title text-dark">
-                             Foods Available in this restaurant <a class="btn btn-link pull-right" data-toggle="collapse" href="#popular2" aria-expanded="true">
+                            Popular Foods Available in this restaurant <a class="btn btn-link pull-right" data-toggle="collapse" href="#popular2" aria-expanded="true">
                               <i class="fa fa-angle-right pull-right"></i>
                               <i class="fa fa-angle-down pull-right"></i>
                               </a>

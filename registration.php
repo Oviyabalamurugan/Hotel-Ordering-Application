@@ -121,7 +121,7 @@ if(isset($_POST['submit'] )) //if submit btn is pressed
 							{
 									
 									
-									echo  '<li class="nav-item"><a href="your_orders.php" class="nav-link active">Your Orders</a> </li>';
+									echo  '<li class="nav-item"><a href="accountpage.php" class="nav-link active">My account</a> </li>';
 									echo  '<li class="nav-item"><a href="logout.php" class="nav-link active">Logout</a> </li>';
 							}
 
